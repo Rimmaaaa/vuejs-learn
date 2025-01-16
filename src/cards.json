@@ -1,0 +1,57 @@
+{
+   "cards": [
+    {
+        "id": 1,
+        "imgLink": "src/assets/img/img1.jpg",
+        "title": "GIR: One Year In",
+        "subtitle": "Case Study"
+    },
+    {
+        "id": 2,
+        "imgLink": "src/assets/img/img2.jpg",
+        "title": "Introducing Onsen",
+        "subtitle": "new additions"
+    },
+    {
+        "id": 3,
+        "imgLink": "src/assets/img/img3.jpg",
+        "title": "Selling Your Shopify Brand: An Introduction",
+        "subtitle": "Mergers & Acquisitions 101"
+    },
+    {
+        "id": 4,
+        "imgLink": "src/assets/img/img4.jpg",
+        "title": "5 Reasons We Are Optimistic for 2023",
+        "subtitle": "MERGERS & ACQUISITIONS 101"
+    },
+    {
+        "id": 5,
+        "imgLink": "src/assets/img/img5.jpg",
+        "title": "Why Right Now is a Great Time to Sell Your Brand",
+        "subtitle": "MERGERS & ACQUISITIONS 101"
+    },
+    {
+        "id": 6,
+        "imgLink": "src/assets/img/img6.jpg",
+        "title": "Selling Your Shopify Brand: Week 1",
+        "subtitle": "Mergers & Acquisitions 101"
+    },
+    {
+        "id": 7,
+        "imgLink": "src/assets/img/img7.jpg",
+        "title": "Pattern's 2022 Update",
+        "subtitle": "THOUGHT LEADERSHIP"
+    },
+    {
+        "id": 8,
+        "imgLink": "src/assets/img/img8.jpg",
+        "title": "Introducing Yield",
+        "subtitle": "New Additions"
+    },
+    {
+        "id": 9,
+        "imgLink": "src/assets/img/img9.jpg",
+        "title": "Introducing Poketo",
+        "subtitle": "new additions"
+    }
+]}
