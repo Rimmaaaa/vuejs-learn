@@ -15,16 +15,16 @@ onMounted(async () => {
 </script>
 
 <template>
-    <main id="press">
-        <p>Explore the brands joining Pattern Brands, the sales process & the founders behind them.</p>
+    <main id="press" class=" max-w-5xl place-self-center p-8">
+        <p class="text-lg lg:w-1/2 mt-8">Explore the brands joining Pattern Brands, the sales process & the founders behind them.</p>
 
-        <section class="card-container">
-            <div class="card" v-for="card in cards" :key="card.id">
+        <section class="card-container mt-16  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-content-start">
+            <div class="card cursor-pointer w-3/4 place-self-center  md:w-[312px] md:h-[501px]" v-for="card in cards" :key="card.id">
                 <div class="img-container">
-                    <img :src="card.imgLink" alt="">
+                    <img :src="card.imgLink" alt="image" class="">
                 </div>
-                <p>{{ card.title }}</p>
-                <h3>{{ card.subtitle }}</h3>
+                <p class="leading-4 mt-3 text-lg text-[#4B4B4B]">{{ card.title }}</p>
+                <h3 class="uppercase text-xs font-mono mt-2 text-[#838383]">{{ card.subtitle }}</h3>
             </div>
         </section>
     </main>
@@ -32,7 +32,7 @@ onMounted(async () => {
 </template>
 
 <style>
-    main {
+    /* main {
         padding-inline: 72px;
     }
 
@@ -74,5 +74,5 @@ onMounted(async () => {
         line-height: 18px;
         opacity: 72%;
         text-transform: uppercase;
-    }
+    } */
 </style>
