@@ -23,25 +23,25 @@ const toggleNavbar = () => {
 </script>
 
 <template>
-    <nav class="p-x-4 bg-white fixed top-0 w-full place-items-center">
+    <nav>
 
-        <button type="button" @click="toggleNavbar"  class="visible md:invisible md:absolute  my-2 inline-flex items-center justify-center p-2 w-full h-10 text-sm text-gray-500 hover:text-[#61CE70] focus:text-[#61CE70] focus:outline-none">
+        <button type="button" @click="toggleNavbar">
         <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
         </svg>
         </button>
     
-            <div class="nav-container w-full uppercase py-3 px-5 flex flex-col md:flex-row items-center justify-evenly"
-            :class="{'invisible absolute -top-20 md:visible md:static': hidden, '': block}">
-                <div class="nav-link hover:text-[#61CE70]">
+            <div class="nav-container"
+            :class="{'invisible md:visible': hidden, 'transform translate-y-full transition': block}">
+                
                     <a href="#">Blog</a>
-                </div>
-                <div class="nav-link hover:text-[#61CE70]">
+                
+                
                     <a href="#press">Press</a>
-                </div>
-                <div class="nav-link hover:text-[#61CE70]">
+                
+                
                     <a href="#contacts">Join us</a>
-                </div>
+                
             </div>
 
         

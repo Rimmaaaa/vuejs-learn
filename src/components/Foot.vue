@@ -1,35 +1,35 @@
 <template>
     <footer id="contacts" class="p-8 mt-8 bg-[#EBEBEB]">
         <div class="headers mt-10 lg:mt-28">
-            <h3 class="text-xs font-mono">CONTACT</h3>
-            <h2 class="md:w-1/2 mt-3 leading-4">We're focused on building brands and a better future.</h2>
-            <h2 class="md:w-1/2 mt-3 leading-4">If you'd like to partner with us, we're <a href="" class="text-[#4B4B4B] hover:text-[#61CE70]">here</a> to talk.</h2>
+            <h3>CONTACT</h3>
+            <h2 class="leading-4">We're focused on building brands and a better future.</h2>
+            <h2 class="leading-4">If you'd like to partner with us, we're <a href="#" class="text-[#4B4B4B]">here</a> to talk.</h2>
         </div>
-        <div class="contacts-container text-sm text-[#4B4B4B] font-mono lg:max-w-4xl md:place-self-center my-10 md:my-20 flex flex-col md:flex-row align-top md:gap-x-40 lg:gap-x-28 md:gap-y-8 md:flex-wrap gap-4">
+        <div class="contacts-container">
             <div class="contacts">
-                <p><a href="" class="hover:text-[#61CE70]">Open Spaces</a></p>
-                <p><a href="" class="hover:text-[#61CE70]">GIR</a></p>
-                <p><a href="" class="hover:text-[#61CE70]">Letterfolk</a></p>
-                <p><a href="" class="hover:text-[#61CE70]">Yield</a></p>
-                <p><a href="" class="hover:text-[#61CE70]">Poketo</a></p>
-                <p><a href="" class="hover:text-[#61CE70]">Equal Parts</a></p>
+                <p><a href="#" >Open Spaces</a></p>
+                <p><a href="#" >GIR</a></p>
+                <p><a href="#" >Letterfolk</a></p>
+                <p><a href="#" >Yield</a></p>
+                <p><a href="#" >Poketo</a></p>
+                <p><a href="#" >Equal Parts</a></p>
             </div>
             <div class="contacts">
-                <p><a href="" class="hover:text-[#61CE70]">Careers</a></p>
-                <p><a href="" class="hover:text-[#61CE70]">Press</a></p>
+                <p><a href="#" >Careers</a></p>
+                <p><a href="#" >Press</a></p>
             </div>
             <div class="contacts">
-                <p><a href="" class="hover:text-[#61CE70]">Instagram</a></p>
-                <p><a href="" class="hover:text-[#61CE70]">Twitter</a></p>
+                <p><a href="#" >Instagram</a></p>
+                <p><a href="#" >Twitter</a></p>
             </div>
             <div class="contacts">
-                <p><a href="" class="hover:text-[#61CE70]">228 Park Ave S.</a></p>
-                <p><a href="" class="hover:text-[#61CE70]">New York, NY 10003</a></p>
-                <p><a href="" class="hover:text-[#61CE70]">acquisitions@patternbrands.com</a></p>
+                <p><a href="#" >228 Park Ave S.</a></p>
+                <p><a href="#" >New York, NY 10003</a></p>
+                <p><a href="#" >acquisitions@patternbrands.com</a></p>
             </div>
         </div>
         <hr class="border-[#4B4B4B]">
-        <p class="copyright text-xs pt-3">© 2022 Pattern Brands</p>
+        <p class="text-xs pt-3">© 2022 Pattern Brands</p>
     </footer>
 
     

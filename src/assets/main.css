@@ -2,16 +2,69 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+
+  html {
+    @apply scroll-smooth
+  }
+
+  nav {
+    @apply bg-white fixed top-0 w-full place-items-center
+  }
+
+  a {
+    @apply hover:text-[#61CE70];
+  }
+
+  button {
+    @apply visible md:invisible md:absolute  my-2 inline-flex items-center justify-center p-2 w-full h-10 text-sm text-gray-500 hover:text-[#61CE70] focus:text-[#61CE70] focus:outline-none
+  }
+
+  h1 {
+    @apply text-2xl md:text-4xl lg:text-5xl lg:w-3/4 mt-4
+  }
+
+  h2 {
+    @apply md:w-1/2 mt-3
+  }
+
+  h3 {
+    @apply text-xs font-mono
+  }
+
+  p {
+    @apply text-[#4B4B4B]
+  }
+
+  .nav-container {
+    @apply  absolute -top-11 bg-white md:static w-full uppercase py-3 px-5 flex flex-col md:flex-row items-center justify-evenly
+  }
+
+  .hero-container {
+    @apply max-w-5xl mt-12  p-8 lg:place-self-center md:my-24 lg:my-32
+  }
+
+  .card-container {
+    @apply mt-16  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-content-start
+  }
+
+  .card {
+    @apply cursor-pointer w-3/4 place-self-center  md:w-[312px] md:h-[501px]
+  }
+
+  .contacts-container {
+    @apply text-sm font-mono lg:max-w-4xl md:place-self-center my-10 md:my-20 flex flex-col md:flex-row align-top md:gap-x-40 lg:gap-x-28 md:gap-y-8 md:flex-wrap gap-4
+  }
+}
+
+
+
+
+
+
 /* @layer {
   @import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
 } */
-
-
-
-
-
-
-
 
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 * {

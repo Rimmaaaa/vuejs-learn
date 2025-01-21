@@ -3,9 +3,9 @@
 </script>
 
 <template>
-    <div id="blog" class="hero-container max-w-5xl mt-12  p-8 lg:place-self-center md:my-24 lg:my-32">
-        <h3  class="text-xs font-mono">BUSINESS THOUGHTS</h3>
-        <h1 class="text-2xl md:text-4xl lg:text-5xl lg:w-3/4 mt-4">For founders on building, growing, and selling your brand.</h1>
+    <div id="blog" class="hero-container">
+        <h3>BUSINESS THOUGHTS</h3>
+        <h1>For founders on building, growing, and selling your brand.</h1>
     </div>
     
 </template>
