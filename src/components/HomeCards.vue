@@ -1,17 +1,10 @@
 <script setup>
-import { ref, onMounted } from 'vue';
-import axios from 'axios';
+import { ref } from 'vue';
 
-const cards = ref([]);
+import cardsArr from '@/cards.json'
 
-onMounted(async () => {
-    try {
-        const response = await axios.get('http://localhost:5000/cards');
-        cards.value = response.data;
-    } catch (error) {
-        console.error('Error fetching cards', error);
-    }
-});
+const cards = ref(cardsArr);
+
 </script>
 
 <template>
